@@ -5,6 +5,17 @@ fields:
 - type: text
   name: title
   label: title
+- name: number
+  type: number
+  label: Number
+  description: 'This is a number field. '
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+    required: true
 - type: datetime
   name: date
   label: date
